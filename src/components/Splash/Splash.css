@@ -1,0 +1,70 @@
+@import url('https://fonts.google.com/specimen/Cabin');
+
+body {
+font-family: 'Cabin';
+
+}
+
+
+
+.logo {
+  position: center;
+  font-size: 3em;
+  padding-bottom: 8%;
+}
+
+.background {
+  background-image: url('http://allswalls.com/images/amazing-sunset-wallpaper-6.jpg');
+  /*padding: 8% 15% 14% 15%;*/
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+
+
+}
+
+.about {
+
+  font-size: 1.4em;
+  line-height: 200%;
+  padding: 10%;
+  font-family: 'Cabin';
+
+}
+
+
+
+.login {
+  padding-right: 10px;
+  /*float: right;*/
+  margin-top: 2%;
+  float: right;
+
+}
+
+input {
+  margin-top: 1%;
+  float: right;
+  margin-right: 2px;
+  opacity: .6;
+  padding: 1%;
+
+}
+
+
+.loginButton {
+  opacity: .4;
+  float: right;
+  margin-bottom: 1%;
+
+
+
+}
+
+
+
+.joinButton {
+   font-size: 1.5em;
+
+}

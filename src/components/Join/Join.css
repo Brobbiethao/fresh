@@ -1,0 +1,84 @@
+.background-video{
+height: 100%;
+width: 100%;
+float: left;
+top: 0;
+padding: none;
+position: fixed;
+
+
+}
+
+
+.borderDiv {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0% 28% 0% 28%;
+  margin: 0;
+  height: 100vh;
+
+
+  background-image: url("http://i.imgur.com/5OsqTua.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.input {
+
+  background-color: black;
+  margin: 0;
+  padding: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  size: 2em;
+  font-size: 2em;
+  border: 2px solid black;
+  border-radius: 4%;
+  opacity: .45;
+
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+}
+
+.inputStyle {
+  margin-bottom: 10%;
+  padding: 10px;
+  font-size: .6em;
+  opacity: .;
+}
+
+.header {
+  color: white;
+  opacity: 1;
+  padding-bottom: 8%;
+  /*padding: 5%;*/
+}
+
+.email {
+  padding-right: 90%;
+  color: white;
+}
+
+.password {
+  padding-right: 90%;
+  color: white;
+}
+
+.confirm {
+  padding-right: 90%;
+  color: white;
+}
+
+.submitButton {
+  color: white;
+  font-size:  .6em;
+  background-color: #241C32;
+  opacity: 1;
+  padding-bottom: 1%;
+
+}
