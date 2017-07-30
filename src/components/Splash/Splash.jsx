@@ -12,20 +12,24 @@ class Splash extends Component {
       email: '',
       password: ''
     }
-    //needs to be exported to store...
+    //needs to be exported to store.../run through firebase
+    //see inputs & button below
     this.changeUserName = this.changeUserName.bind(this)
     this.changePassword = this.changePassword.bind(this)
     this.handleClick = this.handleClick.bind(this)
 }
-    //needs to be exported to store...
+    //needs to be exported to store.../run through firebase
+    //see input below
 changeUserName(e) {
   this.setState({email: e.target.value})
 }
-    //needs to be exported to store...
+    //needs to be exported to store.../run through firebase
+    // see input below
 changePassword(e) {
     this.setState({password: e.target.value})
 }
-    //needs to be exported to store...
+    //needs to be exported to store.../run through firebase
+    // see button below
 handleClick() {
   axios.post('/welcome', {
     email: this.state.email,
@@ -41,6 +45,9 @@ handleClick() {
     console.log(error)
   })
 }
+
+// the buttons and inputs need to be fixed to run
+// through firebase/store
   render() {
     return (
       <div className="background">

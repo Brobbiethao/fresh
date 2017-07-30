@@ -8,6 +8,7 @@
     "cors": "^2.8.4",
     "express": "^4.15.3",
     "express-session": "^1.15.4",
+    "firebase": "^4.2.0",
     "massive": "^3.1.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
